@@ -22,7 +22,7 @@ class Aula:
 
         print(f"PROFESOR: {self.profesor}")
         for alumno in self.alumnos:
-            alumno.convocarExamen(turno)
+            alumno.convocar_examen(turno)
 
     def puntuar(self):
         if not self.profesor:
